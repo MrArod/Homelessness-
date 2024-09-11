@@ -1,6 +1,8 @@
 # Project Overview
 
-This Python project performs the extraction, transformation, and loading (ETL) of data from multiple HUD Homeless Populations and Subpopulations reports (in CSV format) from 2005 to 2023. The script normalizes the data by cleaning the CSV files and ensuring that the data is formatted consistently. The cleaned data is then saved for further analysis.
+This Python project performs the extraction, transformation, and loading (ETL) of PDF's to CSV's from 
+https://www.hudexchange.info/programs/coc/coc-homeless-populations-and-subpopulations-reports/?filter_Year=&filter_Scope=State&filter_State=WA&filter_CoC=&program=CoC&group=PopSub 
+HUD Homeless Populations and Subpopulations reports from 2005 to 2023. The script normalizes the data by cleaning the CSV files and ensuring that the data is formatted consistently. The cleaned data is then saved for further analysis.
 
 ## Technologies Used:
 
