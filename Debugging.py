@@ -1,15 +1,9 @@
 import os
 import pandas as pd
 
-import os
-import pandas as pd
-
 # Define directory paths
 csv_directory = r'C:\Users\antho\OneDrive\Desktop\Jobs\Project Portfolio\CSV'
 output_directory = r'C:\Users\antho\OneDrive\Desktop\Jobs\Project Portfolio\Cleaned'
-
-# Ensure output directory exists
-os.makedirs(output_directory, exist_ok=True)
 
 # List all CSV files
 csv_files = [f for f in os.listdir(csv_directory) if f.endswith('.csv')]
@@ -18,7 +12,7 @@ csv_files = [f for f in os.listdir(csv_directory) if f.endswith('.csv')]
 expected_columns = ['household_type', 'emergency_shelter', 'transitional_housing', 'unsheltered', 'total_population']
 
 
-# Function to clean and normalize the data
+# Clean and normalize the data
 def clean_data(df):
     # Drop fully empty rows
     df_cleaned = df.dropna(how='all')
