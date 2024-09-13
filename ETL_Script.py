@@ -8,7 +8,7 @@ output_directory = r'C:\Users\antho\OneDrive\Desktop\Jobs\Project Portfolio\Clea
 # List all CSV files
 csv_files = [f for f in os.listdir(csv_directory) if f.endswith('.csv')]
 
-# Column headers for renaming (ensure these match your files)
+# Column headers for renaming (must match your CSV)
 expected_columns = ['household_type', 'emergency_shelter', 'transitional_housing', 'unsheltered', 'total_population']
 
 
