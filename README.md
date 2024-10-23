@@ -69,17 +69,14 @@ print("Data cleaning and normalization complete. Files are saved by year.")
 How to Run:
 Clone the repository using the following command:
 
-bash
 git clone https://github.com/MrArod/WA_Homelessness.git
 Install the required dependencies:
 
-bash
 pip install pandas
 Place your CSV files in the directory specified in the script (CSV directory).
 
 Run the Python script to clean and normalize the data:
 
-bash
 python etl_script.py
 The cleaned CSV files will be saved in the Cleaned folder in your project directory.
 
