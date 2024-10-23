@@ -17,7 +17,7 @@ HUD Homeless Populations and Subpopulations reports from 2005 to 2023. The scrip
 import os
 import pandas as pd
 
-# Define directory paths
+# Directory paths
 csv_directory = r'C:\Users\antho\OneDrive\Desktop\Jobs\Project Portfolio\CSV'
 output_directory = r'C:\Users\antho\OneDrive\Desktop\Jobs\Project Portfolio\Cleaned'
 
@@ -70,19 +70,16 @@ How to Run:
 Clone the repository using the following command:
 
 bash
-Copy code
 git clone https://github.com/MrArod/WA_Homelessness.git
 Install the required dependencies:
 
 bash
-Copy code
 pip install pandas
 Place your CSV files in the directory specified in the script (CSV directory).
 
 Run the Python script to clean and normalize the data:
 
 bash
-Copy code
 python etl_script.py
 The cleaned CSV files will be saved in the Cleaned folder in your project directory.
 
